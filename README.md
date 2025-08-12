@@ -1,2 +1,2 @@
 # 8-Puzzle-Problem
-using BFS and DFS
+using BFS, DFS and Best First Search.
