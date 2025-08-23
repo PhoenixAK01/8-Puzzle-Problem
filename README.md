@@ -23,8 +23,6 @@ Features:-
 Implements a Greedy Best-First Search (not A*, because path cost g(n) is not added).
 Detects if the puzzle is unsolvable before searching.
 Prints the solution path (from initial to goal state).
+Uses unordered_set to track visited states and avoid cycles.
 Time Complexity is O(9!) ≈ O(362,880) in the worst case.
 Space Complexity is O(9!) ≈ O(362,880) in the worst case.
-
-Uses unordered_set to track visited states and avoid cycles.
-
